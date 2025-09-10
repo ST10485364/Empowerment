@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Empowering the Nation – Skills training for domestic workers and gardeners in Johannesburg.">
+  <meta name="keywords" content="training, skills, domestic workers, gardeners, Johannesburg, Empowering the Nation">
+  <title>Empowering the Nation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #474747;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 150px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #000000;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: rgb(10, 10, 10);
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    .courses, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: rgb(207, 203, 203);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background: #2c3e50;
+      color: white;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .btn {
+      background: #3b35b3;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #275893;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+
+    <img src="logo.jpg" alt="Empowering the Nation Logo">
+    <h1>Empowering the Nation</h1>
+    <p>Established in 2022, we offer training courses in Johhanessburg. Hundreds
+        of domestic workers and gardeners have been powered through our programs.</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#quote">Request Quote</a>
+    <a href="#contact">Contact</a>
+    <a href="#testimonials">Testimonials</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Empowering the nation is a community driven initiative started by Precious Radebe, this is meant to provide training for domestic workers and gardeners. This is so she can help communities that are underprivileged; after training they will become more employable and potentially start their own business.</p>
+  </section>
+
+  <section id="courses">
+    <h2>Our six month Courses</h2>
+    <div class="courses">
+      <div class="card">
+        <h3>First Aid</h3>
+        <p>first aid awareness and basic life support.</p>
+        <p><strong>Price: R1500</strong></p>
+      </div>
+      <div class="card">
+        <h3>sewing</h3>
+        <p>alterations and new garment tailoring services.</p>
+        <p><strong>Price: R1500</strong></p>
+      </div>
+      <div class="card">
+        <h3>Landscaping</h3>
+        <p>landscaping services for new and established gardens.</p>
+        <p><strong>Price: R1500</strong></p>
+      </div>
+      <div class="card">
+        <h3>Life Skills</h3>
+        <p>skills to navigate basic life necessities.</p>
+        <p><strong>Price: R1500</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="courses">
+    <h2>Our six week Courses</h2>
+    <div class="courses">
+      <div class="card">
+        <h3>Childminding</h3>
+        <p>basic child and babycare.</p>
+        <p><strong>Price: R750</strong></p>
+      </div>
+      <div class="courses">
+      <div class="card">
+        <h3>Cooking</h3>
+        <p>To prepare and cook nutrious family meals.</p>
+        <p><strong>Price: R750</strong></p>
+      </div>
+      <div class="courses">
+      <div class="card">
+        <h3>Garden maintenance</h3>
+        <p>basic knowledge of watering, pruning and planting in a domestic garden.</p>
+        <p><strong>Price: R750</strong></p>
+      </div>
+      </section>
+
+  <section id="quote">
+    <h2>Request a Quote</h2>
+    <form>
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="Number">Your Number:</label><br>
+      <input type="text" id="Number" name="Number" required><br><br> 
+      <label for="Email">Your Email:</label><br>
+      <input type="email" id="Email" name="Email" required><br><br>
+      
+    
+      <label for="courses">Select Course:</label><br>
+      <select id="courses" name="courses">
+        <option>FirstAid</option>
+        <option>Sewing</option>
+        <option>Landscaping</option>
+        <option>Life Skills</option>
+        <option>ChildMinding</option>
+        <option>Cooking</option>
+        <option>Garden Maintenance</option>
+      </select><br><br>
+      <button type="submit" class="btn">Get Quote</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@empoweringthenation.org</p>
+    <p>Phone: +27 11 123 4567</p>
+    <p>Location: Johannesburg, South Africa</p>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonials">
+      <div class="card">
+        <p>"Thanksto this program managed to improve my skills and find a better job!"</p>
+        <p>- Thandi</p>
+      </div>
+      <div class="card">
+        <p>"My gardener is more skilled and confident after completing the course."</p>
+        <p>- Mr. Molefe</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Empowering the Nation | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
