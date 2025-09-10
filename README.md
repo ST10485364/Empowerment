@@ -1,5 +1,6 @@
-# ST10485364
-ST10481692
+# ST10485364/Temogo Esitang
+# ST10481692/Liam Barkley
+# Top Boys
 # Empowering the nation
 # overview
 # Documentation
