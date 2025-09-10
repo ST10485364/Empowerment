@@ -1,8 +1,10 @@
-# ST10485364/Temogo Esitang
-# ST10481692/Liam Barkley
+# ST10485364
+# ST10481692
 # Top Boys
 # Empowering the nation
 # overview
+In this webpage we have all the different courses, those for six weeks as well as the six month ones.
+The first thing you see will be the logo as well as the name
 # Documentation
 <img width="959" height="503" alt="Screenshot 1" src="https://github.com/user-attachments/assets/e46a7584-1e9d-4779-8bd3-7e474b6a3f4a" />
 <img width="959" height="503" alt="Screenshot 2" src="https://github.com/user-attachments/assets/6861c03d-6e74-456c-8a90-e0c45cc59e0b" />
