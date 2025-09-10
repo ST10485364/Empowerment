@@ -3,8 +3,8 @@
 # Top Boys
 # Empowering the nation
 # overview
-In this webpage we have all the different courses, those for six weeks as well as the six month ones.
-The first thing you see will be the logo as well as the name
+In this webpage we have all the different courses, those for six weeks as well as the six months.
+The first thing you see will be the logo as well as the name. under that will be the navigation system that will take you the specific text you click on such as if you click on the courses navigation it will take you to the courses and show you the different courses. under the navigation system will be the welcome message. after seeing all the courses that are offered you will see the quote button that will require you to type in your name, number and email address as soon as you pick the course you would like. under that will be our contact info and where were based. under that you will see the testimonials of those that have already used our services so we can gain the trust of our clients by showing them the feedback from those that have used our services.
 # Documentation
 <img width="959" height="503" alt="Screenshot 1" src="https://github.com/user-attachments/assets/e46a7584-1e9d-4779-8bd3-7e474b6a3f4a" />
 <img width="959" height="503" alt="Screenshot 2" src="https://github.com/user-attachments/assets/6861c03d-6e74-456c-8a90-e0c45cc59e0b" />
